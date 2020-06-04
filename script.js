@@ -626,9 +626,9 @@ function getManifolds() {
 }
 
 function changeDynamic(ms) {
-  if (game.dynamicUnlock==1) game.dynamic += ms/1000000+(game.iups[6]==1?99*ms/1000000:0)
+  if (game.dynamicUnlock==1) game.dynamic += ms/100000+(game.iups[6]==1?999*ms/1000000:0)
   if (game.challenge==6||game.challenge==7) game.dynamic -= (10**27*ms/2)/(game.upgrades.includes(14)?10**29:1)/getManifoldEffect()
-  let capp=10*((game.darkManifolds+1)**0.1)*(game.aups.includes(6)?game.assCard[1].mult.toNumber():1)
+  let capp=100*((game.darkManifolds+1)**0.1)*(game.aups.includes(6)?game.assCard[1].mult.toNumber():1)
   if (game.dynamic>=capp) game.dynamic = capp
 }
 
