@@ -9,7 +9,7 @@ setMarks()
 let clickCoolDown = 0
 let infinityButtonText = 0
 let game
-let factorShiftCosts=[100, 1000, 10000, 100000, 1e10, 1e20, 1e100, 1.095e272, Infinity]
+let factorShiftCosts=[100, 1000, 10000, 100000, 1e10, 1e20, 1e100, 1.095e270, Infinity]
 let factorCostExp=[1.5,1.5,1.5,2,2,3,15,50]
 const bupUpgradeCosts=[1,1,1,12,5,4,8,36,72,73,16,108,53,74,66,324,Infinity,Infinity,8e8,5e11,Infinity,Infinity,Infinity,Infinity]
 const slugMile=[10**10,20,15,12,10,1,-1]
