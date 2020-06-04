@@ -11,7 +11,7 @@ let infinityButtonText = 0
 let game
 let factorShiftCosts=[100, 1000, 10000, 100000, 1e10, 1e20, 1e100, 1.095e270, Infinity]
 let factorCostExp=[1.5,1.5,1.5,2,2,3,15,50]
-const bupUpgradeCosts=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
+const bupUpgradeCosts=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
 const slugMile=[10**10,20,15,12,10,1,-1]
 let totalMult = 1
 let buptotalMute = 1
