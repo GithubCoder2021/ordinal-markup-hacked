@@ -413,7 +413,7 @@ function render() {
   get("collapseCardHelp").textContent=(game.reachedBHO==1?"Next Cardinal in " + beautify(Math.ceil((calcCard().toNumber()+1)**(1/calcCardExponent(game.collapseTime))+24-game.factorBoosts)) + " Factor Boost(s) (":"Reach the BHO first to collapse! (") + game.collapseTime.toFixed(1) + "s in collapse)"
   get("changeOffline").textContent = "Offline Progress: " + (game.offlineProg==1?"ON":"OFF")
   get("bup10").innerHTML = "The base is always five below " + displayOrd(4e270) + "<br><br>73 Boosters"
-  get("aup4").innerHTML = "OP boosts Tier 1 and 2 by x" + Math.log10(Math.log10(1e10+game.OP)).toFixed(3) + "<br><br>Cost: 8 ℵ<sub>ω</sub>"
+  get("aup4").innerHTML = "OP boosts Tier 1 and 2 by x" + Math.log10(10+game.OP).toFixed(3) + "<br><br>Cost: 8 ℵ<sub>ω</sub>"
   get("checkIncrementy").style.display=(game.upgrades.includes(8)&&game.flashIncrementy==1?"inline":"none")
   get("flashIncrementy").style.display=(game.upgrades.includes(8)?"inline":"none")
   get("flashIncrementy").textContent="Flashing Incrementy Reminder: " + (game.flashIncrementy==1?"ON":"OFF")
