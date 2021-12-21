@@ -1,5 +1,5 @@
 //Yeah, I know it's pretty unorganized at the moment
-let factorMult = 1
+let factorMult = 99999
 let bfactorMult = 1
 let succAutoMult = 1
 let limAutoMult = 1
@@ -9,7 +9,7 @@ setMarks()
 let clickCoolDown = 0
 let infinityButtonText = 0
 let game
-let factorShiftCosts=[100, 1000, 10000, 100000, 1e10, 1e20, 1e100, 1.095e270, Infinity]
+let factorShiftCosts=[1, 1, 1, 1, 1, 1, 1, 10000, Infinity]
 let factorCostExp=[1.5,1.5,1.5,2,2,3,15,50]
 const bupUpgradeCosts=[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]
 const slugMile=[10**10,20,15,12,10,1,-1]
