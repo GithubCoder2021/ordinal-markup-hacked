@@ -60,7 +60,7 @@ function increment(manmade=0) {
     if (game.ord % game.base == game.base-1) {
       game.over += 1
     } else {
-      game.ord += 1
+      game.ord += 100
     }
     clickCoolDown=2
   }
